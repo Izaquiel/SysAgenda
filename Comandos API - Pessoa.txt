@@ -1,0 +1,24 @@
+METHOD: POST
+URI: localhost:8080/pessoa
+Body: JSON
+{
+	"nome":"Izaquiel",
+	"dataNascimento":"1992-04-08",
+	"telefone":"(83)99932-8445"
+}
+
+METHOD: GET
+URI: localhost:8080/pessoa
+
+METHOD: POST
+URI: localhost:8080/pessoa
+Body: JSON
+{
+	"id":1,
+	"nome":"Izaquiel Cruz",
+	"dataNascimento":"1992-04-08",
+	"telefone":"(83)99932-8445"
+}
+
+METHOD: DELETE
+URI: localhost:8080/pessoa/1
